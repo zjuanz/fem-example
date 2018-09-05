@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  padding:0;
+  margin:0;
+}
+.calculator {
+  width: 400px;
+  font-family: monospace;
+  font-size: 60px;
+  padding: 0;
+  margin: 0;
+  background-color: black;
+}
+.output textarea{
+  text-align: right;
+  width: 100%;
+}
+.double {
+  height:100px;
+  width:65%;
+  background-color: yellow;
+  border: none;
+  border-radius: 0;
+  padding:0;
+  margin:0;
+  margin-bottom: 2%;
+}
+.single {
+  height:100px;
+  width:30%;
+  background-color: yellow;
+  border: none;
+  border-radius: 0;
+  margin:0;
+  padding:0;
+  margin-bottom: 2%;
+
+}
+.triple {
+  height:100px;
+  width:100%;
+  background-color: yellow;
+  border: none;
+  border-radius: 0;
+  padding:0;
+  margin:0;
+  margin-bottom: 2%;
+
+}
+.operators {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  border: none;
+  border-radius: 0;
+  padding:0;
+  margin:0;
+}
+.operators .single {
+  width: 100px;
+  background-color: orange;
+}
+.keys {
+  display: flex;
+  align-content: stretch;
+  width: 100%
+}
+.keypad {
+  width: 300px;
+  cursor: pointer;
+}
